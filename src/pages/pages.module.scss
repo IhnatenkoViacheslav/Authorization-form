@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: #023535;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 9px 24px -9px rgba(66, 68, 90, 1);
+
+    button {
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #023535;
+        color: #C7FFED;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        box-shadow: -4px 8px 24px -9px rgba(66, 68, 90, 1);
+
+
+        &:hover {
+            background-color: #015958;
+            border: 1px solid #023535;
+        }
+    }
+
+    .register {
+        color: #023535;
+        font-weight: 600;
+        a {
+            text-decoration: none;
+            color: #015958;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
